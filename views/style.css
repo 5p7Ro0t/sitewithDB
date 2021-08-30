@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+.container{
+    display: flex;
+    margin-bottom: 2%;
+}
+.headclass{
+    margin: 30px;
+    margin-right: auto;
+    margin-left: 10%;
+    width: auto;
+    height: auto;
+    color: #404040;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.extraclass{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 31px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid;
+    background-color: #c6c5b3;
+    padding: 0px 15px;
+    text-align: center;
+    padding-top: 11px;
+    font-size: small;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 28px;
+}
+.extraclass:hover{
+    background-color: #d3d2c1;
+}
+.starclass{
+    margin-left:16%;
+    color: #2685c6;
+}
+.spanclass{
+    margin: 0px 0.5%;
+}
+#divid{
+    /* width: auto;
+    margin-left: 16%; */
+    padding-bottom: 2%;
+    padding-top: 0%;
+    color: rgba(0,0,0,.6);
+    font-size: x-large;
+    border-bottom: 1px solid #CCD0D9;
+    text-align: center;
+}
+.forms{
+    margin: 2% 0%;
+}
+.inputclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.7% 17%;
+    padding: 0.7% 1%;
+    width: 31%;
+    border-style: hidden;
+    border: 1px solid #ccd0d9;
+    border-style: solid;
+    outline: none;
+    border-radius: 2px;
+    background-color: none;
+}
+.inputclass:focus-within{
+    border-color: #2685c6;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 46.6%;
+    padding: 10px 20px;
+    background-color: #007faa;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #089cce;
+}
+body{
+    background-color: transparent;
+}
+/*Success Styling*/
+#successhead{
+    margin: 30px 10%;
+    width: auto;
+    height: 50px;
+    color: #404040;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    border-bottom: 1px solid #CCD0D9;
+}
+.success{
+    margin: 0px 16%;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif
+}
+
+/*Responsive Code*/
+@media all and (max-width: 600px) {
+    .inputclass{
+        width: 63%;
+        padding: 2% 2%;
+        margin: 5% 17%;
+    }
+    .spanclass{
+        padding: 2% 2%;
+    }
+    .btn{
+        margin: 0 auto;
+        display: block;
+    }
+    .btn:hover{
+        background-color: #089cce;
+    }
+    
+}

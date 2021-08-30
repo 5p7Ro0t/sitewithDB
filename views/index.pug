@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title SOA - Scholarship
+        style 
+            include style.css 
+
+    body(bgcolor="")
+        div(class="container")
+            a(href="https://www.soa.ac.in/",class="headclass", target="_blank") SOA | SIKSHA 'O' ANUSANDHAN
+            a(href="https://www.admission.soa.ac.in/" , class="extraclass" ,target="_blank") Admissions
+        div(id="divid") Registration form for Scholarship (2020 Admission Batch)
+        form(action="/", method="post", class="forms" , align="center")
+            span(class="starclass") *
+            span(class="spanclass") Name of Student
+            input(class="inputclass",type="text", name="name",maxlength="100", required) 
+            span(class="starclass") *
+            span(class="spanclass") Registration Number 
+            input(class="inputclass",type="tel", name="redg_no",maxlength="10",minlength="10", required , placeholder="Type a Number" )
+            span(class="starclass") *
+            span(class="spanclass") Section
+            input(class="inputclass",type="tel", name="sec",maxlength="7",minlength="7",required)
+            span(class="starclass") *
+            span(class="spanclass") Branch
+            input(class="inputclass",type="text", name="branch",required)
+            button(class="btn",type="submit")
+                |Submit
+            
